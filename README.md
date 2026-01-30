@@ -71,5 +71,9 @@ The dataset is used for:
 |---|---|---|
 | ![](assets/demo1_vit.jpg) | ![](assets/demo2_vit.jpg) | ![](assets/demo3_Vit.jpg) |
 
+---
+## Log
+https://wandb.ai/tuankiet1302051-fpt-university/CNN-Flower-Classification/reports/ConvNext--VmlldzoxNTc5MTkxNg?accessToken=c6ab9qyj6l3dtgxaqs0nczbehk6tt0sp01lz1j6y76f4yyy10eybzeepuikrsuni
+
 
 
