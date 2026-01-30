@@ -73,7 +73,9 @@ The dataset is used for:
 
 ---
 ## Log
-https://wandb.ai/tuankiet1302051-fpt-university/CNN-Flower-Classification/reports/ConvNext--VmlldzoxNTc5MTkxNg?accessToken=c6ab9qyj6l3dtgxaqs0nczbehk6tt0sp01lz1j6y76f4yyy10eybzeepuikrsuni
+ConvNeXt
 
+[https://wandb.ai/tuankiet1302051-fpt-university/CNN-Flower-Classification/reports/ConvNext--VmlldzoxNTc5MTkxNg?accessToken=c6ab9qyj6l3dtgxaqs0nczbehk6tt0sp01lz1j6y76f4yyy10eybzeepuikrsuni
+](https://api.wandb.ai/links/tuankiet1302051-fpt-university/cm30jqd5)
 
 
