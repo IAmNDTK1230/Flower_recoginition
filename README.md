@@ -43,15 +43,6 @@ The dataset is used for:
 
 ---
 
-## Training Configuration
-- Input image size: `224 × 224`
-- Loss function: Categorical Cross-Entropy
-- Optimizer: Adam / AdamW
-- Batch size: 32
-- Framework: PyTorch / TensorFlow
-
----
-
 ##  Experimental Results
 | Task            | Model      | Metric        | Result  |
 |-----------------|------------|---------------|---------|
