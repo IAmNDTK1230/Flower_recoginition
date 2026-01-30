@@ -66,7 +66,9 @@ The dataset is used for:
 ## Demo Results
 
 ### Input Image
-![Input Image](assets/demo_input.jpg)
+| | | |
+|---|---|---|
+| ![](assets/demo1.jpg) | ![](assets/demo2.jpg) | ![](assets/demo3.jpg) |
 
 ### ConvNeXt
 | | | |
@@ -76,7 +78,7 @@ The dataset is used for:
 ### ViT
 | | | |
 |---|---|---|
-| ![](assets/demo1_Vit.jpg) | ![](assets/demo2_Vit.jpg) | ![](assets/demo3_Vit.jpg) |
+| ![](assets/demo1_vit.jpg) | ![](assets/demo2_vit.jpg) | ![](assets/demo3_Vit.jpg) |
 
 
 
