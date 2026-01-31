@@ -33,6 +33,22 @@ The dataset is used for:
   - Transformer-based model that captures global image context
 
 ---
+## Fine-Tuning
+
+We apply transfer learning to adapt pre-trained models to the flower recognition task.
+
+### Stage 1 – Feature Freezing
+- Freeze backbone layers  
+- Train only the classification / detection head  
+→ Stabilizes training and learns task-specific decision boundaries
+
+### Stage 2 – Unfreezing
+- Partially or fully unfreeze the backbone  
+- Use a smaller learning rate for backbone layers  
+→ Enables domain-specific feature adaptation
+
+**Benefits:** Faster convergence and better performance on limited and imbalanced data.
+
 
 ## System Pipeline
 1. Input image
@@ -44,11 +60,11 @@ The dataset is used for:
 ---
 
 ##  Experimental Results
-| Task            | Model      | Metric        | Result  |
-|-----------------|------------|---------------|---------|
-| Detection       | YOLO       | mAP           | 0.771   |
-| Classification  | ConvNeXt   | Accuracy      | 0.9951  |
-| Classification  | ViT        | Accuracy      | 0.9902  |
+| Task            | Model      | Metric        | Result  |     Metric    | Result |     Metric      | Result |
+|-----------------|------------|---------------|---------|---------------|--------|-----------------|--------|
+| Detection       | YOLO       | mAP           | 0.771   |    x          |   x    |    x            |   x    |  
+| Classification  | ConvNeXt   | Accuracy      | 0.9951  |F1-score macro | 0.9961 |F1-score weightz | 0.9963 |
+| Classification  | ViT        | Accuracy      | 0.9902  |F1-score macro | 0.9976 |F1-score weightz | 0.9975 |    
 
 > Results may vary depending on training configuration.
 
