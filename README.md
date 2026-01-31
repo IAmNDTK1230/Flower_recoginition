@@ -14,6 +14,8 @@ The project demonstrates a complete computer vision pipeline from raw images to 
 - **Oxford 102 Flower Dataset**
 - 102 flower categories
 - Images with high variation in background, scale, and lighting conditions
+- **Open Images V7 Dataset**
+- ~5000 images for label “flower”
 
 The dataset is used for:
 - Training and evaluating classification models (ConvNeXt, ViT)
