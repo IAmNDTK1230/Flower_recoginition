@@ -12,14 +12,14 @@ The project demonstrates a complete computer vision pipeline from raw images to 
 
 ## Dataset
 - **Oxford 102 Flower Dataset**
-- 102 flower categories
-- Images with high variation in background, scale, and lighting conditions
+Contains 102 flower categories with large variations in background, scale, and lighting.
+This dataset is used for image classification, where cropped flower images are classified using models such as ConvNeXt and Vision Transformer (ViT).
+  
 - **Open Images V7 Dataset**
-- ~5000 images for label “flower”
-
-The dataset is used for:
-- Training and evaluating classification models (ConvNeXt, ViT)
-- Detection data is prepared by converting images into YOLO format
+Includes approximately 5,000 images labeled as flower with high-quality bounding box annotations.
+This dataset is used for object detection, and the annotations are converted into YOLO format for training the YOLO detector.
+  
+The separation of datasets allows the model to focus on classification accuracy and detection robustness independently
 
 ---
 
